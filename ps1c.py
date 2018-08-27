@@ -88,7 +88,8 @@ def compute_rate(lower, upper):
         step_counter += 1
         max = (savings_rate * 10000)+1
         compute_rate(min, max)
-
+        
+        
 
 compute_rate(min, max)
 print('Rate: ', savings_rate)
